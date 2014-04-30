@@ -1,6 +1,8 @@
 # Installation
 
-```$ bower install jquery.ajaxform```
+```bash
+$ bower install jquery.ajaxform
+```
 
 # Usage
 
