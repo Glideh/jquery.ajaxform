@@ -1,6 +1,6 @@
-# Description
+# Installation
 
-Very simple jquery plugin to post an HTML form with ajax
+```$ bower install jquery.ajaxform```
 
 # Usage
 
@@ -17,7 +17,7 @@ Very simple jquery plugin to post an HTML form with ajax
 ```javascript
 $('.my_submitter').click(function (e) {
     e.preventDefault();
-    $('#my_form').ajaxpost();
+    $('#my_form').ajaxsend();
 });
 ```
 
@@ -33,7 +33,7 @@ The uri `my_uri` will be requested by ajax with `POST` method.
 
 ```javascript
 //  ...
-    $('#my_form').ajaxpost()
+    $('#my_form').ajaxsend()
         .done(function (data) {
             $('#my_loaded').append(data);
         });
@@ -41,4 +41,4 @@ The uri `my_uri` will be requested by ajax with `POST` method.
 
 `my_uri` will be `GET`ed and its result will be appended into `my_loaded`.
 
-`ajaxpost()` returns the jquery [ajax](https://api.jquery.com/jQuery.ajax) object which calls back `done()`, `fail()`, ...
+`ajaxsend()` returns the jquery [ajax](https://api.jquery.com/jQuery.ajax) object which calls back `done()`, `fail()`, ...
