@@ -1,0 +1,14 @@
+{
+    "name": "jquery.ajaxpost",
+    "version": "0.0.1",
+    "ignore": [
+        ".gitignore",
+        "README.md",
+        "bower.json",
+        ".bowerrc"
+    ],
+    "main": "ajaxpost.js",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
