@@ -1,6 +1,6 @@
 {
     "name": "jquery.ajaxpost",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "ignore": [
         ".gitignore",
         "README.md",
@@ -10,5 +10,10 @@
     "main": "ajaxpost.js",
     "dependencies": {
         "jquery": ">=1.5"
-    }
+    },
+    "keywords": [
+        "jquery",
+        "ajax"
+    ],
+    "homepage": "https://github.com/Glideh/jquery.ajaxform"
 }
