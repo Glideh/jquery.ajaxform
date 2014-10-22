@@ -44,3 +44,22 @@ The uri `my_uri` will be requested by ajax with `POST` method.
 `my_uri` will be `GET`ed and its result will be appended into `my_loaded`.
 
 `ajaxsend()` returns the jquery [ajax](https://api.jquery.com/jQuery.ajax) object which calls back `done()`, `fail()`, ...
+
+## Example 3
+
+```html
+<form id="my_form" method="POST" action="my_uri"></form>
+```
+
+```javascript
+//  ...
+    $('#my_form').ajaxsend({
+        'data': {'param1': 'machin', 'param2': 'chouette'}
+    }).done(function (data) {
+        console.log(data);
+    });
+```
+
+`my_uri` will be `POST`ed with `data` as params.
+
+`ajaxsend()` returns the jquery [ajax](https://api.jquery.com/jQuery.ajax) object which calls back `done()`, `fail()`, ...
