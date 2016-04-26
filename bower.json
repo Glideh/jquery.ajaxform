@@ -1,6 +1,8 @@
 {
     "name": "jquery.ajaxpost",
-    "version": "0.0.3",
+    "version": "0.0.5",
+    "authors": ["Pierre de LESPINAY"],
+    "description": "Ajaxize any HTML form",
     "ignore": [
         ".gitignore",
         "README.md",

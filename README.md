@@ -6,7 +6,7 @@ $ bower install jquery.ajaxform
 
 # Usage
 
-## Example 1
+## Submitting a simple form
 
 ```html
 <form id="my_form" method="POST" action="my_uri">
@@ -25,7 +25,7 @@ $('.my_submitter').click(function (e) {
 
 The uri `my_uri` will be requested by ajax with `POST` method.
 
-## Example 2
+## Handling the response
 
 ```html
 <form id="my_form" method="GET" action="my_uri">
@@ -45,7 +45,7 @@ The uri `my_uri` will be requested by ajax with `POST` method.
 
 `ajaxsend()` returns the jquery [ajax](https://api.jquery.com/jQuery.ajax) object which calls back `done()`, `fail()`, ...
 
-## Example 3
+## Sending custom parameters
 
 ```html
 <form id="my_form" method="POST" action="my_uri"></form>
